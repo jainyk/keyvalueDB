@@ -134,8 +134,8 @@ The partitioning module distributes data:
 The client API provides an interface for applications:
 
 - Simple Put/Get/Delete operations
-- Connection pooling and request routing
-- Automatic retries and failover
+<!-- - Connection pooling and request routing
+- Automatic retries and failover -->
 
 <!-- ## 5. Deployment and Operation
 
@@ -228,4 +228,4 @@ Potential future improvements include:
 
 This distributed key-value store provides a robust, scalable, and consistent storage system implemented in Go. By leveraging the Raft consensus algorithm and consistent hashing, it achieves a good balance between consistency, availability, and partition tolerance according to the CAP theorem.
 
-The modular design allows for future extensions and customizations while maintaining the core requirements of scalability, consistency, fault tolerance, and concurrency support.
+<!-- The modular design allows for future extensions and customizations while maintaining the core requirements of scalability, consistency, fault tolerance, and concurrency support. -->
